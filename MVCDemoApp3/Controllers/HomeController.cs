@@ -68,5 +68,12 @@ namespace MVCDemoApp3.Controllers
 
             return View();
         }
+
+        public ActionResult Version()
+        {
+            ViewBag.Message = "Version Number";
+
+            return View();
+        }
     }
 }
